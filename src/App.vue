@@ -1,6 +1,6 @@
 <template>
   <div>123123</div>
-  <!-- <router-view></router-view> -->
+  <router-view></router-view>
 </template>
 
 <script setup lang="ts"></script>
