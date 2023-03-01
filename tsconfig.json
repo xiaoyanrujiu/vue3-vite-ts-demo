@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 指定 ECMAScript
+    "useDefineForClassFields": true,
+    "module": "ESNext", // 指定使用模块
+    "moduleResolution": "Node", // 选择模块解析策略
+    "strict": true, // 启用所有严格类型检查选项
+    "jsx": "preserve", // 指定 jsx 代码的生成
+    "resolveJsonModule": true,
+    "isolatedModules": true, // 将每个文件做为单独的模块
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"], // 指定要包含在编译中的库文件
+    "skipLibCheck": true,
+    "noEmit": true // 不生成输出文件
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
